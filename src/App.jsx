@@ -7,11 +7,10 @@ import Navbar from './components/navbar';
 import HomePageCard from './components/homePageCard';
 
 function App() {
-  const [count, setCount] = useState(0);
 
   return (
     <div className='snap-y snap-mandatory overflow-y-scroll'>
-      {/* <Navbar/> */}
+      <Navbar/>
       <HomePageCard/>
       <HomePageCard/>
     </div>
